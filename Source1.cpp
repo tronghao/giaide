@@ -35,7 +35,7 @@ int main()
 				swap(d[i].heSoLuong > d[j].heSoLuong);
 		}
 	}
-	
+	cout << "\nNhan vien sap xep theo luong: \n";
 	for (int i = 0; i < n; i++)
 	{
 		d[i].xuat();
