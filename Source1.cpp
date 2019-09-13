@@ -35,6 +35,11 @@ int main()
 				swap(d[i].heSoLuong > d[j].heSoLuong);
 		}
 	}
+	
+	for (int i = 0; i < n; i++)
+	{
+		d[i].xuat();
+	}
 
 	return 0;
 }
